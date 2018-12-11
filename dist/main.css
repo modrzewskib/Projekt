@@ -1,0 +1,9 @@
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+section {
+  display: -ms-grid;
+  display: grid; }
+
