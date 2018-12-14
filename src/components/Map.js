@@ -23,12 +23,10 @@ class Map extends React.Component {
 
     componentDidMount(){
 
-        // The location of Uluru
-        var krakow = {lat: 50.0558725738616, lng: 19.9410154597768};
-        // The map, centered at Uluru
+        var krakow = {lat: 52, lng: 19};
         var map = new google.maps.Map(
             this.map, {
-                zoom: 6.5,
+                zoom: 6,
                 center: krakow,
                 styles: style
             }

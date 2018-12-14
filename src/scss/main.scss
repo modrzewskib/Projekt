@@ -1,7 +1,138 @@
-div {
-  display: flex;
+$unescoColor: #5B92E5;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section {
-  display: grid;
+body {
+  font-family: 'Montserrat', sans-serif;
+  #app {
+    height: 100vh;
+    width: 100vw;
+    .mainInfo{
+      width: 100%;
+      padding: 10px;
+      text-align: justify;
+      font-weight: 900;
+      background-image: url("../images/UnescoBackground.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .mainWrapper{
+      display: flex;
+      flex-direction: column;
+      h1{
+        background-color: $unescoColor;
+        color: white;
+        text-align: center;
+      }
+      .mainSection {
+        width: 100%;
+        .browser{
+          width: 100%;
+          margin: 10px 0;
+          font-size: 1.2rem;
+          font-weight: 900;
+          label{
+            width: 50%;
+          }
+          input{
+            border-style: none;
+            border-image: none;
+            width: 50%;
+            border-bottom: 5px solid $unescoColor;
+            background-color: white;
+            outline: none;
+            color: $unescoColor;
+          }
+          :valid{
+            font-size: 1.2rem;
+            font-weight: 900;
+            text-align: center;
+          }
+        }
+        .objectList{
+          overflow: scroll;
+          height: 260px;
+          .listItem {
+            h4 {
+              font-weight: 900;
+              color: white;
+              font-size: 19px;
+              text-align: justify;
+              background-color: $unescoColor;
+              padding: 5px;
+              margin-bottom: 5px;
+            }
+            .listWrapper {
+              display: flex;
+              .basicInfo {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                :nth-child(1){
+                  margin-top: 5px;
+                }
+                :nth-child(2){
+                  margin-bottom: 5px;
+                }
+                h5 {
+                  span {
+                    font-size: 20px;
+                  }
+                }
+              }
+              .moreButton{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                  button {
+                    width: 80%;
+                  padding: 10px;
+                  font-size: 24px;
+                  text-align: center;
+                  cursor: pointer;
+                  outline: none;
+                  color: #fff;
+                  background-color: $unescoColor;
+                  border: none;
+                  border-radius: 40px;
+                  box-shadow: 6px 5px #999;
+                    margin: 10px;
+                    position: relative;
+                    top: -8px;
+                }
+
+                  button:hover {background-color: $unescoColor}
+
+                  button:active {
+                  background-color: $unescoColor;
+                  box-shadow: 0 5px #666;
+                  transform: translateY(4px);
+                }
+              }
+            }
+            .monumentDescription{
+              display: flex;
+              flex-direction: column-reverse;
+              .itemDescription{
+              padding: 10px;
+                text-align: justify;
+            }
+              .closeInfo{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 7px;
+                font-weight: 900;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

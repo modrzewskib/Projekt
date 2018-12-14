@@ -7,12 +7,14 @@ class List extends React.Component {
     constructor(props) {
         super(props);
         this.state={
-            info: false
+            info: false,
+            button: true
         }
     }
     handleClick=(e)=>{
         this.setState({
-            info: !this.state.info
+            info: !this.state.info,
+            button: !this.state.button
         });
     }
 
@@ -30,23 +32,23 @@ class List extends React.Component {
             }
         ];
         return (
-            <div><h4>{this.props.name}</h4>
-                <h5>{this.props.city}</h5>
-                <h5>Data wpisu: {this.props.date}</h5>
-                <button onClick={this.handleClick}>Zobacz opis</button>
+            <div className={'listItem'}><h4>{this.props.name}</h4>
+                <div className={'listWrapper'}>
+                <div className={'basicInfo'}>
+                    <h5>Lokalizacja: <span>{this.props.city}</span></h5>
+                    <h5>Data wpisu: <span>{this.props.date}</span></h5>
+                </div>
+                <div className={'moreButton'}>
+                    <button onClick={this.handleClick}>{this.state.button===true?"Więcej...":"Mniej"}</button>
+                </div>
+                </div>
                 {this.state.info===true&&
                 <div className={'monumentDescription'}>
-                    <div style={{
-                        width:'50%',
-                    }}>{this.props.description}</div>
-                    <div style={{
-                        width:'50%',
-                        heigth: '200px',
-                        margin: '0 auto'
-                    }}>
+                    <div className={'itemDescription'}>{this.props.description}</div>
+                    <div>
                         <ImageGallery items={images} showThumbnails={false}/>
                     </div>
-                    <div onClick={this.handleClick}>X</div>
+                    <div className={'closeInfo'} onClick={this.handleClick}>X</div>
                 </div>}
             </div>
         )
