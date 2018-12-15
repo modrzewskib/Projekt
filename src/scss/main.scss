@@ -24,7 +24,7 @@ body {
     .mainWrapper{
       display: flex;
       flex-direction: column;
-      h1{
+      h1.mainHeader{
         background-color: $unescoColor;
         color: white;
         text-align: center;
@@ -54,85 +54,254 @@ body {
             text-align: center;
           }
         }
-        .objectList{
-          overflow: scroll;
-          height: 260px;
-          .listItem {
-            h4 {
-              font-weight: 900;
-              color: white;
-              font-size: 19px;
-              text-align: justify;
-              background-color: $unescoColor;
-              padding: 5px;
-              margin-bottom: 5px;
-            }
-            .listWrapper {
-              display: flex;
-              .basicInfo {
+        .objectWrapper {
+          display: flex;
+          flex-direction: column;
+          .objectList {
+            overflow: scroll;
+            overflow-x: hidden;
+            overflow-y: auto;
+            height: 260px;
+            .listItem {
+              h4 {
+                font-weight: 900;
+                color: white;
+                font-size: 19px;
+                text-align: justify;
+                background-color: $unescoColor;
+                padding: 5px;
+                margin-bottom: 5px;
+              }
+
+              .listWrapper {
                 display: flex;
-                flex-direction: column;
-                width: 50%;
-                :nth-child(1){
-                  margin-top: 5px;
-                }
-                :nth-child(2){
-                  margin-bottom: 5px;
-                }
-                h5 {
-                  span {
-                    font-size: 20px;
+
+                .basicInfo {
+                  display: flex;
+                  flex-direction: column;
+                  width: 50%;
+
+                  :nth-child(1) {
+                    margin-top: 5px;
+                  }
+
+                  :nth-child(2) {
+                    margin-bottom: 5px;
+                  }
+
+                  h5 {
+                    span {
+                      font-size: 20px;
+                    }
                   }
                 }
-              }
-              .moreButton{
-                width: 50%;
-                display: flex;
-                justify-content: center;
+
+                .moreButton {
+                  width: 50%;
+                  display: flex;
+                  justify-content: center;
+
                   button {
                     width: 80%;
-                  padding: 10px;
-                  font-size: 24px;
-                  text-align: center;
-                  cursor: pointer;
-                  outline: none;
-                  color: #fff;
-                  background-color: $unescoColor;
-                  border: none;
-                  border-radius: 40px;
-                  box-shadow: 6px 5px #999;
+                    padding: 10px;
+                    font-size: 24px;
+                    text-align: center;
+                    cursor: pointer;
+                    outline: none;
+                    color: #fff;
+                    background-color: $unescoColor;
+                    border: none;
+                    border-radius: 40px;
+                    box-shadow: 6px 5px #999;
                     margin: 10px;
                     position: relative;
                     top: -8px;
-                }
+                  }
 
-                  button:hover {background-color: $unescoColor}
+                  button:hover {
+                    background-color: $unescoColor
+                  }
 
                   button:active {
-                  background-color: $unescoColor;
-                  box-shadow: 0 5px #666;
-                  transform: translateY(4px);
+                    background-color: $unescoColor;
+                    box-shadow: 0 5px #666;
+                    transform: translateY(4px);
+                  }
                 }
               }
-            }
-            .monumentDescription{
-              display: flex;
-              flex-direction: column-reverse;
-              .itemDescription{
-              padding: 10px;
-                text-align: justify;
-            }
-              .closeInfo{
-                width: 100%;
-                display: flex;
-                justify-content: flex-end;
-                padding: 7px;
-                font-weight: 900;
+              .monumentBackground {
+                top: 0;
+                position: absolute;
+                z-index: 5;
+                width: 100vw;
+                height: 100vh;
+                background-color: rgba(0, 0, 0, 0.5);
+
+                .monumentDescription {
+                  display: flex;
+                  flex-direction: column-reverse;
+                  position: absolute;
+                  z-index: 10;
+                  width: 90vw;
+                  top: 0;
+                  left: 5%;
+                  margin-top: 10px;
+
+                  .itemDescription {
+                    padding: 10px;
+                    text-align: justify;
+                    background-color: white;
+                    height: 350px;
+                    overflow: scroll;
+                    overflow-x: hidden;
+                    overflow-y: auto;
+                  }
+
+                  .closeInfo {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 7px;
+                    color: white;
+                    font-weight: 900;
+                    border: 8px solid white;
+                    border-radius: 30px;
+                    position: relative;
+                    left: 90%;
+                    cursor: pointer;
+                  }
+                }
               }
             }
           }
         }
       }
+      footer{
+        width: 100%;
+        padding-left: 15px;
+        background-color: rgba(91,146,229,0.25);
+        color: black;
+        font-size: 12px;
+        font-weight: 900;
+        word-wrap: break-word;
+          ol{
+            width: 100%;
+            li{
+              a{
+                color: black;
+                text-decoration: none;
+              }
+            }
+          }
+      }
     }
   }
 }
+
+@media (min-width: 700px) {
+  body {
+    #app {
+      height: 100%;
+      width: 100%;
+      .mainWrapper {
+        h1.mainHeader{
+          height: 300px;
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 2.4rem;
+        }
+        .mainInfo{
+          padding: 5%;
+          background-size: 56%;
+          background-color: rgba(91,146,229,0.25);
+        }
+        .mainSection {
+          .browser{
+            label{
+              width: 30%;
+            }
+            input{
+              width: 85%;
+            }
+          }
+          .objectWrapper {
+            display: flex;
+            flex-direction: row;
+            .objectList {
+              width: 50%;
+              height: 500px;
+
+              .listItem {
+                .monumentBackground {
+                  top: 0;
+                  position: absolute;
+                  z-index: 5;
+                  width: 100vw;
+                  height: 134.5vh;
+                  background-color: rgba(0,0,0,0.5);
+                  .monumentDescription {
+                    position: absolute;
+                    z-index: 10;
+                    width: 90vw;
+
+                    .itemDescription {
+                      background-color: white;
+                      height: 200px;
+                      padding: 30px;
+                      overflow: scroll;
+                      overflow-x: hidden;
+                      overflow-y: auto;
+                    }
+
+                    .galleryWrapper {
+                      width: 100%;
+                      display: flex;
+                      justify-content: center;
+
+                      .gallery {
+                        width: 800px;
+
+                        .image-gallery-slide img {
+                          width: 800px !important;
+                        }
+                      }
+                    }
+
+                    .closeInfo {
+                      width: 40px;
+                      height: 40px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 7px;
+                      color: white;
+                      font-weight: 900;
+                      border: 8px solid white;
+                      border-radius: 30px;
+                      position: relative;
+                      left: 96%;
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+            }
+
+            .map {
+              width: 50%;
+            }
+          }
+        }
+        footer{
+          height: 63px;
+        }
+      }
+    }
+  }
+}
+
+

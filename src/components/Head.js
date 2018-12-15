@@ -10,7 +10,7 @@ class Head extends React.Component {
    }
    render(){
      return (
-         <h1>{this.state.title}</h1>
+         <h1 className={'mainHeader'}>{this.state.title}</h1>
      )
    }
 

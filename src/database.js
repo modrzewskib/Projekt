@@ -1,5 +1,5 @@
 module.exports = [{
-    NAZWA: "Historyczne centrum Krakowa",
+    NAZWA: "I Historyczne centrum Krakowa",
     NUMER_WPISU: "29bis",
     DATA_WPISU: "1978",
     MIEJSCOWOSC: "Kraków",
@@ -12,7 +12,7 @@ module.exports = [{
     ZDJECIE2: require("./images/01. Historyczne centrum Krakowa (wpis 1978)/Krakow (2).jpg"),
     ZDJECIE3: require("./images/01. Historyczne centrum Krakowa (wpis 1978)/Krakow (3).jpg"),
 }, {
-    NAZWA: "Królewskie Kopalnie Soli w Wieliczce i Bochni - kopalnia soli w Bochni",
+    NAZWA: "II Królewskie Kopalnie Soli w Wieliczce i Bochni - kopalnia soli w Bochni",
     NUMER_WPISU: "32ter",
     DATA_WPISU: "1978",
     MIEJSCOWOSC: "Bochnia",
@@ -23,7 +23,7 @@ module.exports = [{
     ZDJECIE2: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Bochnia/Bochnia (2).jpg"),
     ZDJECIE3: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Bochnia/Bochnia (3).jpg"),
 }, {
-    NAZWA: "Królewskie Kopalnie Soli w Wieliczce i Bochni - Zamek Żupny w Wieliczce",
+    NAZWA: "II Królewskie Kopalnie Soli w Wieliczce i Bochni - Zamek Żupny w Wieliczce",
     NUMER_WPISU: "32ter",
     DATA_WPISU: "1978",
     MIEJSCOWOSC: "Wieliczka",
@@ -34,7 +34,7 @@ module.exports = [{
     ZDJECIE2: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Wieliczka - Zamek Żupny/Wieliczka - Zamek Zupny (2).jpg"),
     ZDJECIE3: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Wieliczka - Zamek Żupny/Wieliczka - Zamek Zupny (3).jpg"),
 }, {
-    NAZWA: "Królewskie Kopalnie Soli w Wieliczce i Bochni - kopalnia soli w Wieliczce",
+    NAZWA: "II Królewskie Kopalnie Soli w Wieliczce i Bochni - kopalnia soli w Wieliczce",
     NUMER_WPISU: "32ter",
     DATA_WPISU: "1978",
     MIEJSCOWOSC: "Wieliczka",
@@ -45,7 +45,7 @@ module.exports = [{
     ZDJECIE2: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Wieliczka - kopalnia/Wieliczka - kopalnia (2).jpg"),
     ZDJECIE3: require("./images/02. Królewskie Kopalnie Soli w Wieliczce i Bochni (wpis 1978, 2013)/Wieliczka - kopalnia/Wieliczka - kopalnia (3).jpg"),
 }, {
-    NAZWA: "Auschwitz Birkenau - niemiecki nazistowski obóz koncentracyjny i Zagłady (1940-1945) - Auschwitz II",
+    NAZWA: "III Auschwitz Birkenau - niemiecki nazistowski obóz koncentracyjny i Zagłady (1940-1945) - Auschwitz II",
     NUMER_WPISU: "31",
     DATA_WPISU: "1979",
     MIEJSCOWOSC: "Brzezinka",
@@ -61,7 +61,7 @@ module.exports = [{
     ZDJECIE3: require("./images/04. Auschwitz Birkenau, niemiecki nazistowski obóz koncentracyjny i zagłady 1940-1945 (wpis 1979)/Auschwitz II - Birkenau (3).jpg"),
 },
     {
-        NAZWA: "Auschwitz Birkenau, niemiecki nazistowski obóz koncentracyjny i zagłady (1940-1945) - Auschwitz I",
+        NAZWA: "III Auschwitz Birkenau, niemiecki nazistowski obóz koncentracyjny i zagłady (1940-1945) - Auschwitz I",
         NUMER_WPISU: "31",
         DATA_WPISU: "1979",
         MIEJSCOWOSC: "Oświęcim",
@@ -78,7 +78,7 @@ module.exports = [{
         ZDJECIE3: require("./images/04. Auschwitz Birkenau, niemiecki nazistowski obóz koncentracyjny i zagłady 1940-1945 (wpis 1979)/Auschwitz I (3).jpg"),
     },
     {
-        NAZWA: "Puszcza Białowieska",
+        NAZWA: "IV Puszcza Białowieska",
         NUMER_WPISU: "33ter",
         DATA_WPISU: "1979",
         MIEJSCOWOSC: "Białowieża",
@@ -90,7 +90,7 @@ module.exports = [{
         ZDJECIE2: require("./images/03. Belovezhskaya Pushcha - Puszcza Białowieska (wpis 1979, 1992, 2014)/Puszcza Bialowieska (2).jpg"),
         ZDJECIE3: require("./images/03. Belovezhskaya Pushcha - Puszcza Białowieska (wpis 1979, 1992, 2014)/Puszcza Bialowieska (3).jpg"),
     }, {
-        NAZWA: "Historyczne centrum Warszawy",
+        NAZWA: "V Historyczne centrum Warszawy",
         NUMER_WPISU: "30bis",
         DATA_WPISU: "1980",
         MIEJSCOWOSC: "Warszawa",
@@ -105,7 +105,7 @@ module.exports = [{
         ZDJECIE2: require("./images/05. Historyczne centrum Warszawy (wpis 1980)/Warszawa (2).jpg"),
         ZDJECIE3: require("./images/05. Historyczne centrum Warszawy (wpis 1980)/Warszawa (4).jpg"),
     }, {
-        NAZWA: "Stare Miasto w Zamościu",
+        NAZWA: "VI Stare Miasto w Zamościu",
         NUMER_WPISU: "564",
         DATA_WPISU: "1992",
         MIEJSCOWOSC: "Zamość",
@@ -118,7 +118,7 @@ module.exports = [{
         ZDJECIE2: require("./images/06. Stare miasto w Zamościu (wpis 1992)/Zamosc (2).jpg"),
         ZDJECIE3: require("./images/06. Stare miasto w Zamościu (wpis 1992)/Zamosc (4).jpg"),
     }, {
-        NAZWA: "Miasto średniowieczne w Toruniu",
+        NAZWA: "VII Miasto średniowieczne w Toruniu",
         NUMER_WPISU: "835",
         DATA_WPISU: "1997",
         MIEJSCOWOSC: "Toruń",
@@ -131,7 +131,7 @@ module.exports = [{
         ZDJECIE2: require("./images/07. Miasto średniowieczne w Toruniu (wpis 1997)/Torun (3).jpg"),
         ZDJECIE3: require("./images/07. Miasto średniowieczne w Toruniu (wpis 1997)/Torun (4).jpg"),
     }, {
-        NAZWA: "Zamek krzyżacki w Malborku",
+        NAZWA: "VIII Zamek krzyżacki w Malborku",
         NUMER_WPISU: "847",
         DATA_WPISU: "1997",
         MIEJSCOWOSC: "Malbork",
@@ -146,7 +146,7 @@ module.exports = [{
         ZDJECIE2: require("./images/08. Zamek krzyżacki w Malborku (wpis 1997)/Malbork (3).jpg"),
         ZDJECIE3: require("./images/08. Zamek krzyżacki w Malborku (wpis 1997)/Malbork (4).jpg"),
     }, {
-        NAZWA: "Kalwaria Zebrzydowska - manierystyczny zespół architektoniczno-krajobrazowy oraz park pielgrzymkowy",
+        NAZWA: "IX Kalwaria Zebrzydowska - manierystyczny zespół architektoniczno-krajobrazowy oraz park pielgrzymkowy",
         NUMER_WPISU: "905",
         DATA_WPISU: "1999",
         MIEJSCOWOSC: "Kalwaria Zebrzydowska",
@@ -161,7 +161,7 @@ module.exports = [{
         ZDJECIE2: require("./images/09. Kalwaria Zebrzydowska - manierystyczny zespół architektoniczno-krajobrazowy oraz park pielgrzymkowy (wpis 1999)/Kalwaria (3).jpg"),
         ZDJECIE3: require("./images/09. Kalwaria Zebrzydowska - manierystyczny zespół architektoniczno-krajobrazowy oraz park pielgrzymkowy (wpis 1999)/Kalwaria (4).jpg"),
     }, {
-        NAZWA: "Kościoły Pokoju w Jaworze i Świdnicy - Kościół Pokoju w Jaworze",
+        NAZWA: "X Kościoły Pokoju w Jaworze i Świdnicy - Kościół Pokoju w Jaworze",
         NUMER_WPISU: "1054",
         DATA_WPISU: "2001",
         MIEJSCOWOSC: "Jawor",
@@ -173,7 +173,7 @@ module.exports = [{
         ZDJECIE2: require("./images/10. Kościoły Pokoju w Jaworze i Świdnicy (wpis 2001)/Jawor/Jawor (3).jpg"),
         ZDJECIE3: require("./images/10. Kościoły Pokoju w Jaworze i Świdnicy (wpis 2001)/Jawor/Jawor (5).jpg"),
     }, {
-        NAZWA: "Kościoły Pokoju w Jaworze i Świdnicy - Kościół Pokoju w Świdnicy",
+        NAZWA: "X Kościoły Pokoju w Jaworze i Świdnicy - Kościół Pokoju w Świdnicy",
         NUMER_WPISU: "1054",
         DATA_WPISU: "2001",
         MIEJSCOWOSC: "Świdnica",
@@ -186,7 +186,7 @@ module.exports = [{
         ZDJECIE2: require("./images/10. Kościoły Pokoju w Jaworze i Świdnicy (wpis 2001)/Świdnica/Swidnica (3).jpg"),
         ZDJECIE3: require("./images/10. Kościoły Pokoju w Jaworze i Świdnicy (wpis 2001)/Świdnica/Swidnica (5).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. św. Leonarda w Lipnicy Murowanej",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. św. Leonarda w Lipnicy Murowanej",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Lipnica Murowana",
@@ -198,7 +198,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Lipnica Murowana/Lipnica Murowana (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Lipnica Murowana/Lipnica Murowana (3).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. św. Michała Archanioła w Binarowej",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. św. Michała Archanioła w Binarowej",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Binarowa",
@@ -209,7 +209,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Binarowa/Binarowa (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Binarowa/Binarowa (3).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. św. Filipa i św. Jakuba w Sękowej",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. św. Filipa i św. Jakuba w Sękowej",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Sękowa",
@@ -220,7 +220,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Sękowa/Sekowa (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Sękowa/Sekowa (3).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. św. Michała Archanioła w Dębnie",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. św. Michała Archanioła w Dębnie",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Dębno",
@@ -231,7 +231,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Dębno Podhalańskie/Debno Podhalanskie (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Dębno Podhalańskie/Debno Podhalanskie (3).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. Wniebowzięcia Najświętszej Maryi Panny i św. Michała Archanioła w Haczowie",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. Wniebowzięcia Najświętszej Maryi Panny i św. Michała Archanioła w Haczowie",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Haczów",
@@ -242,7 +242,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Haczów/Haczow (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Haczów/Haczow (3).jpg"),
     }, {
-        NAZWA: "Kościoły drewniane południowej Małopolski - Kościół pw. Wszystkich Świętych w Bliznem",
+        NAZWA: "XI Kościoły drewniane południowej Małopolski - Kościół pw. Wszystkich Świętych w Bliznem",
         NUMER_WPISU: "1053rev",
         DATA_WPISU: "2003",
         MIEJSCOWOSC: "Blizne",
@@ -253,7 +253,7 @@ module.exports = [{
         ZDJECIE2: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Blizne/Blizne (2).jpg"),
         ZDJECIE3: require("./images/11. Kościoły drewniane południowej Małopolski Binarowa, Blizne, Dębno, Sękowa, Haczów, Lipnica Murowana (wpis 2003)/Blizne/Blizne (3).jpg"),
     }, {
-        NAZWA: "Park Mużakowski/Muskauer Park",
+        NAZWA: "XII Park Mużakowski/Muskauer Park",
         NUMER_WPISU: "1127",
         DATA_WPISU: "2004",
         MIEJSCOWOSC: "Łęknica",
@@ -267,7 +267,7 @@ module.exports = [{
         ZDJECIE2: require("./images/12. Muskauer Park - Park Mużakowsk (wpis 2004)/Park Muzakowski (3).jpg"),
         ZDJECIE3: require("./images/12. Muskauer Park - Park Mużakowsk (wpis 2004)/Park Muzakowski (4).jpg"),
     }, {
-        NAZWA: "Hala Stulecia we Wrocławiu",
+        NAZWA: "XIII Hala Stulecia we Wrocławiu",
         NUMER_WPISU: "1165",
         DATA_WPISU: "2006",
         MIEJSCOWOSC: "Wrocław",
@@ -281,7 +281,7 @@ module.exports = [{
         ZDJECIE2: require("./images/13. Hala Stulecia we Wrocławiu (wpis 2006)/Wroclaw (3).jpg"),
         ZDJECIE3: require("./images/13. Hala Stulecia we Wrocławiu (wpis 2006)/Wroclaw (4).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. Opieki Matki Bożej w Owczarach",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. Opieki Matki Bożej w Owczarach",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Owczary",
@@ -292,7 +292,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Owczary/Owczary (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Owczary/Owczary (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Brunarach",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Brunarach",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Brunary",
@@ -303,7 +303,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Brunary Wyżne/Brunary Wyzne (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Brunary Wyżne/Brunary Wyzne (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Paraskewy w Kwiatoniu",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Paraskewy w Kwiatoniu",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Kwiatoń",
@@ -314,7 +314,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Kwiatoń/Kwiaton (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Kwiatoń/Kwiaton (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Jakuba w Powroźniku",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Jakuba w Powroźniku",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Powroźnik",
@@ -325,7 +325,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Powroźnik/Powroznik (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Powroźnik/Powroznik (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Smolniku",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Smolniku",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Smolnik",
@@ -336,7 +336,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Smolnik/Smolnik (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Smolnik/Smolnik (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. Narodzenia Przenajświętszej Bogurodzicy w Chotyńcu",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. Narodzenia Przenajświętszej Bogurodzicy w Chotyńcu",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Chotyniec",
@@ -347,7 +347,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Chotyniec/Chotyniec (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Chotyniec/Chotyniec (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Paraskewy w Radrużu",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Paraskewy w Radrużu",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Radruż",
@@ -358,7 +358,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Radruż/Radruz (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Radruż/Radruz (3).jpg"),
     }, {
-        NAZWA: "Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Turzańsku",
+        NAZWA: "XIV Drewniane cerkwie polskiego i ukraińskiego regionu Karpat - Cerkiew pw. św. Michała Archanioła w Turzańsku",
         NUMER_WPISU: "1424",
         DATA_WPISU: "2013",
         MIEJSCOWOSC: "Turzańsk",
@@ -369,7 +369,7 @@ module.exports = [{
         ZDJECIE2: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Tutrzańsk/Tutrzansk (2).jpg"),
         ZDJECIE3: require("./images/14. Drewniane cerkwie w polskim i ukraińskim regionie Karpat (wpis 2013)/Tutrzańsk/Tutrzansk (3).jpg"),
     }, {
-        NAZWA: "Kopalnie rud ołowiu, srebra i cynku wraz z systemem gospodarowania wodami podziemnymi w Tarnowskich Górach",
+        NAZWA: "XV Kopalnie rud ołowiu, srebra i cynku wraz z systemem gospodarowania wodami podziemnymi w Tarnowskich Górach",
         NUMER_WPISU: "1539",
         DATA_WPISU: "2017",
         MIEJSCOWOSC: "Tarnowskie Góry",
